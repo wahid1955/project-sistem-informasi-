@@ -12,26 +12,39 @@
         <div>
             <h2>ADMIN TOKO</h2>
         </div>
-    
+
         <div>
             <ul>
                 <li><a href="beranda.html">Beranda</a></li>
                 <li><a href="produk_toko.html">Produk toko</a></li>
+                <li><a href="promosi.html">Promosi</a></li>
+                <li><a href="pengaturan_pengiriman.html">Pengaturan pengiriman</a></li>
+                <li><a href="pengaturan_toko.html">pengaturan toko</a></li>
             </ul>
         </div>
     </header>
     <!-- end navbar -->
 
     <!-- content -->
-     <div class="dashboard">
-        <h2>Kelola Produk</h2>
-        <form action="/submit" method="/post" class="form-content"></form>
-        <label for="nama barang">Nama Barang</label>
+    <div class="dashboard">
+        <h2>Stok Barang</h2>
+        <form action="submit" method="post" class="form-content" ></form>
+        <label for="nama barang">Nama barang:</label>
         <input type="text" id="nama barang" name="nama barang" required>
+
+        <h2>harga barang</h2>
+        <label for="harga" >Harga: </label>
+        <input type="number" id="harga" name="harga" required>
+
+        <h2>upload gambar</h2>
+        <label for="image">upload gambar</label>
+        <input type="file" id="image" name="image" accept="image">
+
+
 
         
 
-     </div>
-     <!-- end content -->
+    </div>
+    <!-- end content -->
 </body>
 </html>
